@@ -564,7 +564,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 #abtextleft {
-    margin-right: 10px;
+    float: right;
 }
 
 /* --------------------------------------- */
