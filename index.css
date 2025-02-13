@@ -2,7 +2,6 @@
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
 
-
 @font-face {
     font-family: 'Hk Grotesk';
     font-style: normal;
@@ -400,6 +399,15 @@ body:not(.user-is-tabbing) a:focus {
     background: var(--pink);
 }
 
+.nav__link__active {
+    color: var(--pink);
+    position: relative;
+    display: inline-block;
+    padding: 1rem 0;
+    text-decoration: none;
+    transition: all .2s;
+}
+
 /* --------------------------------------- */
 /* ----- Header ----- */
 /* --------------------------------------- */
@@ -513,12 +521,22 @@ body:not(.user-is-tabbing) a:focus {
 .client__logos {
     display: flex;
     justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
+    filter: opacity(.8);
 }
 
 .client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
+    height: 25rem;
+    max-width: 45rem;
+}
+
+.client__logo__ga3 {
+    height: 15rem;
+    max-width: 26rem;
+}
+
+.client__logo__ga2 {
+    height: 25rem;
+    max-width: 45rem;
 }
 
 @media(max-width: 1240px) {

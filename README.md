@@ -1,1 +1,1 @@
-# EMC | An E-Porfolio for SoIT Mapua
+# EMC | An E-Porfolio made for SoIT Mapua
